@@ -7,7 +7,7 @@ namespace RunGroopWebApp.Repository
 {
     public class ClubRepository : IClubRepository
     {
-        private ApplicationDbContext _context;
+        private readonly ApplicationDbContext _context;
 
         public ClubRepository(ApplicationDbContext context)
         {

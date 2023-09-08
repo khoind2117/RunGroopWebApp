@@ -7,7 +7,7 @@ namespace RunGroopWebApp.Repositories
 {
     public class RaceRepository : IRaceRepository
     {
-        private ApplicationDbContext _context;
+        private readonly ApplicationDbContext _context;
 
         public RaceRepository(ApplicationDbContext context)
         {
